@@ -1,2 +1,4 @@
-# GrantG_Portfolio
-A personal portfolio of past projects.
+# Grant's Portfolio
+
+##About
+This is a personal portfolio of past projects.
