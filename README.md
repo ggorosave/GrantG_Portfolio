@@ -1,4 +1,4 @@
 # Grant's Portfolio
 
-##About
+## About
 This is a personal portfolio of past projects.
