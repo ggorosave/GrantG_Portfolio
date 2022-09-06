@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: #191970;
+    color: white;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2em;
+}
