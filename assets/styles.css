@@ -4,7 +4,7 @@ body {
     color: white;
 }
 
-nav > ul {
+nav ul {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
