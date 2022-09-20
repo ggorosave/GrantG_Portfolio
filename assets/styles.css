@@ -11,7 +11,7 @@ body {
     color: #d9faff;
 }
 
-nav > ul {
+nav ul {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
