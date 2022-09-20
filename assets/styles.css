@@ -1,7 +1,14 @@
+/* 
+Color Pallet
+Primary: #00204a
+Secondary: #005792
+Tertiary: #00bbf0
+Quaternary: #d9faff
+*/
 body {
     margin: 0;
-    background-color: #191970;
-    color: white;
+    background-color: #00204a;
+    color: #d9faff;
 }
 
 nav > ul {
@@ -11,7 +18,20 @@ nav > ul {
 }
 
 a {
-    color: white;
+    color: #d9faff;
     text-decoration: none;
     margin-right: 2em;
 }
+
+/* Media quieries (source: https://devfacts.com/media-queries-breakpoints-2022/ */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
