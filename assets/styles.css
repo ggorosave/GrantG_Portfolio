@@ -5,22 +5,45 @@ Secondary: #005792
 Tertiary: #00bbf0
 Quaternary: #d9faff
 */
+
+/* 
+Fonts
+1. Oswald
+2. Source Sans Pro
+ */
+ 
 body {
     margin: 0;
     background-color: #00204a;
+    font-size: 16px;
     color: #d9faff;
 }
 
+/* Navbar */
 nav ul {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
 }
 
-a {
+nav a {
     color: #d9faff;
     text-decoration: none;
     margin-right: 2em;
+}
+
+/* Profile image */
+figure img {
+    max-width: 200px;
+    max-height: 200px;
+    background-size: cover;
+}
+
+/* Sections */
+
+/* Project Links */
+#work a {
+    text-decoration: none;
 }
 
 /* Media quieries (source: https://devfacts.com/media-queries-breakpoints-2022/ */
