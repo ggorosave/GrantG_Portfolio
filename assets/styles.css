@@ -15,8 +15,14 @@ Fonts
 body {
     margin: 0;
     background-color: #00204a;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
     font-size: 16px;
     color: #d9faff;
+}
+
+/* Headers */
+h1, h2, h3, {
+    font-family: 'Oswald', Verdana, sans-serif;
 }
 
 /* Navbar */
