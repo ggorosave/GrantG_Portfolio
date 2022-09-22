@@ -21,7 +21,7 @@
     <title>Grant Gorosave</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="./assets/normalize.css">
+    <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/styles.css">
 
     <!-- Font links from Google Fonts (Oswald & Source Sans Pro)-->
@@ -35,7 +35,7 @@
 
 <body>
     <header>
-        <h1>Portfolio</h1>
+        <h1 class="frame">Portfolio</h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -44,23 +44,22 @@
             </ul>
         </nav>
     </header>
-    
-    <figure id="hero">
-        <img src="./assets/Profile_Pic_1.jpg" alt="Profile picture" />
-        <figcaption>Hi! I'm Grant. I make websites.</figcaption>
-    </figure>
-
     <main>
-        <section id="about" class="sections">
+        <figure id="hero" class="frame flex-center">
+            <img src="./assets/Profile_Pic_1.jpg" alt="Profile picture" />
+            <figcaption>Hi! I'm Grant. I make websites.</figcaption>
+        </figure>
+
+        <section id="about" class="sections frame">
             <h2>About</h2>
             <p>I’m an ex-teacher, newbie web developer interested in designing and working on websites for educational organizations and institutions. I like working with HTML and CSS, and I’m currently in the process of learning JavaScript. I have some interest in building browser games that teachers can customize for their classrooms and enhance student engagement. If you have any questions or want to get in touch, contact me via one of the methods below.   </p>
         </section>
     
-        <section id="work" class="sections">
+        <section id="work" class="sections frame">
             <h2>Work</h2>
             <!-- Project Links -->
             <a class="project-links" href="#" target="_blank">
-                <figure>
+                <figure class="flex-center">
                     <img src="http://via.placeholder.com/400x375" alt="link to project" />
                     <aside>
                     <h3>Project Title</h3>
@@ -69,7 +68,7 @@
                 </figure>
             </a>
             <a class="project-links" href="#" target="_blank">
-                <figure>
+                <figure class="flex-center">
                     <img src="http://via.placeholder.com/400x375" alt="link to project" />
                     <aside>
                         <h3>Project Title</h3>
@@ -78,7 +77,7 @@
                 </figure>
             </a>
             <a class="project-links" href="#" target="_blank">
-                <figure>
+                <figure class="flex-center">
                     <img src="http://via.placeholder.com/400x375" alt="link to project" />
                     <aside>
                         <h3>Project Title</h3>
@@ -87,7 +86,7 @@
                 </figure>
             </a>
             <a class="project-links" href="#" target="_blank">
-                <figure>
+                <figure class="flex-center">
                     <img src="http://via.placeholder.com/400x375" alt="link to project" />
                     <aside>
                         <h3>Project Title</h3>
@@ -96,7 +95,7 @@
                 </figure>
             </a>
             <a class="project-links" href="#" target="_blank">
-                <figure>
+                <figure class="flex-center">
                     <img src="http://via.placeholder.com/400x375" alt="link to project" />
                     <aside>
                         <h3>Project Title</h3>
@@ -105,7 +104,7 @@
                 </figure>
             </a>
             <a class="project-links" href="#" target="_blank">
-                <figure>
+                <figure class="flex-center">
                     <img src="http://via.placeholder.com/400x375" alt="link to project" />
                     <aside>
                         <h3>Project Title</h3>
@@ -115,7 +114,7 @@
             </a>
         </section>
     
-        <section id="contact" class="sections">
+        <section id="contact" class="sections frame">
             <h2>Contact</h2>
             <ul>
                 <li>
