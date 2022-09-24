@@ -36,8 +36,6 @@ main {
 }
 
 .frame {
-    /* h1, figure, sections */
-    /* background color, round edges, width */
     background-color: var(--second);
     width: 97.5%;
     border-radius: 10px;
@@ -49,8 +47,8 @@ main {
     align-items: center;   
 }
 
-p, figcaption, #work figcaption {
-    line-height: 1.5em;;
+p, figcaption {
+    line-height: 1.5em;
 }
 
 /* Headers */
@@ -79,19 +77,20 @@ h1 {
 /* Navbar */
 nav ul {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: .75em 0;
 }
 
 nav li {
-    background-color: var(--quat);
     width: 30%;
+}
+
+nav div {
+    background-color: var(--quat);
+    width: 100%;
     text-align: center; 
     padding: .5em 0;
     border-radius: 15px;
-}
-
-nav a {
     color: var(--prim);
     font-weight: bold;
 }
@@ -103,31 +102,17 @@ nav a {
 
 /* Profile image */
 #hero {
-    /* margin-top: 8.5em; */
-    /* margin-inline-start: auto; */
-    /* margin-inline-end: auto; */
     height: 20em;
     margin: 7.5em auto 0 auto; 
 }
 
 #hero img {
-    /* max-width: 200px; */
-    /* max-height: 200px; */
     max-width: 50%;
     max-height: 60%;
-    background-size: cover;
     display: block;
     margin: 2.4em auto;
     border: 3px solid var(--quat);
-}
-
-/* 
-#hero figcaption::after {
-    content: "I make websites.";
-    display: block;
-    text-align: center;
-    font-size: 105%;
-} */
+} 
 
 /* Sections */
 .sections {
@@ -197,7 +182,31 @@ footer p {
 }
 
 /* Animation */
+nav div:hover {
+    background-color: var(--prim);
+    color: var(--quat);
+    /* border-radius: 20px; */
+    padding: .45em 0;
+    border: 1px solid var(--quat);
+    animation: bgc .5s ease-out 1;
+}
 
+nav div:active {
+    transform: scale(.90);
+}
+
+#contact i:hover {
+    transform: scale(1.2);
+    transition: transform .25s ease-out;
+}
+
+/* keyframes */
+@keyframes bgc {
+    0% {background-color: var(--quat); color: var(--prim);}
+    25% {background-color: var(--tert); color: var(--second);}
+    75% {background-color: var(--second); color: var(--tert);}
+    100% {background-color: var(--prim); color: var(--quat);}
+}
 
 /* Media quieries (source: https://devfacts.com/media-queries-breakpoints-2022/ */
 /* Small devices (landscape phones, 576px and up) */
@@ -227,11 +236,13 @@ footer p {
         font-size: 130%;
     }
 
-    nav a { 
+    nav div { 
         font-size: 120%;
+        border-radius: 20px;
+
     }
 
-    p, figcaption, #work figcaption {
+    p, figcaption {
         font-size: 120%;
     }
 
@@ -301,20 +312,15 @@ footer p {
         padding-top: 1em;
     }
 
-    /* Header */
-    h1 {
-        /* margin-top: 10em; */
-    }
-
     /* Nav Buttons */
     nav ul {
         justify-content: right;
     }
-
+    
     nav li {
         width: 15%;
         margin-right: 1em;
-    }
+        }
     
     /* Banner */
     #banner {
@@ -327,7 +333,7 @@ footer p {
         width: 100%;        
     }
 
-    .frame:not(#hero, #about) {
+    .frame:not(h1, #hero, #about) {
         width: 98.9%;
         margin-top: 0em;
     }
