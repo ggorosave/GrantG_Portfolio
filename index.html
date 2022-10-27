@@ -5,13 +5,14 @@
     1) Add titled images of applications (previous work)
     2) add resume link?
  -->
+
 <head>
     <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Web development Portfolio for Grant Gorosave" />
-    
+
     <!-- Title -->
     <title>Grant Gorosave</title>
 
@@ -20,7 +21,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css"">
 
     <!-- Font links from Google Fonts (Oswald & Source Sans Pro)-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
@@ -34,17 +35,27 @@
         <nav>
             <ul>
                 <!-- Used div element to create buttons with CSS -->
-                <li><a href="#about"><div>About</div></a></li>
-                <li><a href="#work"><div>Work</div></a></li>
-                <li><a href="#contact"><div>Contact</div></a></li>
+                <li><a href="#about">
+                        <div>About</div>
+                    </a></li>
+                <li><a href="#work">
+                        <div>Work</div>
+                    </a></li>
+                <li><a href="#contact">
+                        <div>Contact</div>
+                    </a></li>
+                    <li><a href="https://docs.google.com/document/d/1EWR1TOmuN1AajXGIm5J82dXeGpKDZn3zHmqQbkcLhvM/edit" target="_blank">
+                        <div>Resume</div>
+                    </a></li>
             </ul>
         </nav>
     </header>
     <main>
-        
+
         <figure id="banner">
             <!-- Placeholder - Image Source: https://commons.wikimedia.org/wiki/File:Giant_ocean_wave.jpg -->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Giant_ocean_wave.jpg" alt="my dog Willow sitting among azelias" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Giant_ocean_wave.jpg"
+                alt="my dog Willow sitting among azelias" />
         </figure>
         <figure id="hero" class="frame flex-center">
             <img src="./assets/images/Profile_Pic_1.jpg" alt="Profile picture" />
@@ -53,73 +64,120 @@
 
         <section id="about" class="sections frame">
             <h2>About</h2>
-            <p>I’m an ex-teacher, newbie web developer interested in designing and working on websites for educational organizations and institutions. I like working with HTML and CSS, and I’m currently in the process of learning JavaScript. I have some interest in building browser games that teachers can customize for their classrooms and enhance student engagement. If you have any questions or want to get in touch, contact me via one of the methods below.   </p>
+            <p>I’m an ex-teacher, newbie web developer interested in designing and working on websites for educational
+                organizations and institutions. I like working with HTML and CSS, and I’m currently in the process of
+                learning JavaScript. I have some interest in building browser games that teachers can customize for
+                their classrooms and enhance student engagement. If you have any questions or want to get in touch,
+                contact me via one of the methods below. </p>
         </section>
-    
+
         <section id="work" class="sections frame">
             <h2>Work</h2>
             <!-- Project Links -->
             <div class="grid-container">
-                <a href="https://ggorosave.github.io/Quiz_Game/" target="_blank" class="top-row">
+                <div class="project-card top-row">
                     <figure class="flex-center">
-                        <img src="./assets/images/Vocabulary Quiz Game.png" alt="link to project 1" />
+                        <a href="https://ggorosave.github.io/Quiz_Game/" target="_blank" class="image-link">
+                            <img src="./assets/images/Vocabulary Quiz Game.png" alt="link to project 1" />
+                        </a>
                         <div>
-                        <h3>Vocabulary Quiz Game</h3>
-                        <p>This is a short and simple vocabulary quiz game that saves the top three scores in local storage and displays them on the "View Scores" page.</p>
+                            <a href="https://ggorosave.github.io/Quiz_Game/" target="_blank" class="deployed-link">
+                                <h3>Vocabulary Quiz Game</h3>
+                            </a>
+                            <p>This is a short and simple vocabulary quiz game that saves the top three scores in local
+                                storage and displays them on the "View Scores" page.</p>
+                            <a href="https://github.com/ggorosave/Quiz_Game" target="_blank" class="repo-link"><i
+                                    class="fa-brands fa-github"></i> GitHub
+                                Repo</a>
                         </div>
                     </figure>
-                </a>
-                <a href="#" target="_blank" class="row-left">
+                </div>
+
+                <div class="project-card row-left">
                     <figure class="flex-center">
-                        <img src="https://via.placeholder.com/400x375" alt="link to project 2" />
+                        <a href="" target="_blank" class="image-link">
+                            <img src="https://via.placeholder.com/400x375" alt="link to project 2" />
+                        </a>
                         <div>
-                            <h3>Project Title</h3>
-                            <p>Project description... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                    </figure>
-                </a>
-                <a href="#" target="_blank" class="row-right">
-                    <figure class="flex-center">
-                        <img src="https://via.placeholder.com/400x375" alt="link to project 3" />
-                        <div>
-                            <h3>Project Title</h3>
-                            <p>Project description... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" target="_blank" class="deployed-link">
+                                <h3>Project Title</h3>
+                            </a>
+                            <p>Project description... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" target="_blank" class="repo-link"><i class="fa-brands fa-github"></i> GitHub
+                                Repo</a>
                         </div>
                     </figure>
-                </a>
-                <a href="#" target="_blank" class="row-left">
+                </div>
+
+                <div class="project-card row-right">
                     <figure class="flex-center">
-                        <img src="https://via.placeholder.com/400x375" alt="link to project4 " />
-                        <div> 
-                            <h3>Project Title</h3>
-                            <p>Project description... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </figure>
-                </a>
-                <a href="#" target="_blank" class="row-right">
-                    <figure class="flex-center">
-                        <img src="https://via.placeholder.com/400x375" alt="link to project 5" />
+                        <a href="" target="_blank" class="image-link">
+                            <img src="https://via.placeholder.com/400x375" alt="link to project 3" />
+                        </a>
                         <div>
-                            <h3>Project Title</h3>
-                            <p>Project description... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" target="_blank" class="deployed-link">
+                                <h3>Project Title</h3>
+                            </a>
+                            <p>Project description... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" target="_blank" class="repo-link"><i class="fa-brands fa-github"></i> GitHub
+                                Repo</a>
                         </div>
                     </figure>
-                </a>
-                
+                </div>
+
+                <div class="project-card row-left">
+                    <figure class="flex-center">
+                        <a href="" target="_blank" class="image-link">
+                            <img src="https://via.placeholder.com/400x375" alt="link to project 4" />
+                        </a>
+                        <div>
+                            <a href="#" target="_blank" class="deployed-link">
+                                <h3>Project Title</h3>
+                            </a>
+                            <p>Project description... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" target="_blank" class="repo-link"><i class="fa-brands fa-github"></i> GitHub
+                                Repo</a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="project-card row-right">
+                    <figure class="flex-center">
+                        <a href="" target="_blank" class="image-link">
+                            <img src="https://via.placeholder.com/400x375" alt="link to project 5" />
+                        </a>
+                        <div>
+                            <a href="#" target="_blank" class="deployed-link">
+                                <h3>Project Title</h3>
+                            </a>
+                            <p>Project description... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" target="_blank" class="repo-link"><i class="fa-brands fa-github"></i> GitHub
+                                Repo</a>
+                        </div>
+                    </figure>
+                </div>
+
             </div>
         </section>
-    
+
         <section id="contact" class="sections frame">
             <h2>Contact</h2>
             <ul>
                 <li>
-                    <a href="https://github.com/ggorosave" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://github.com/ggorosave" target="_blank"><i
+                            class="fa-brands fa-square-github"></i></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/GorosaveGrant" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://twitter.com/GorosaveGrant" target="_blank"><i
+                            class="fa-brands fa-square-twitter"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/grant-gorosave-891aba248/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/grant-gorosave-891aba248/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
                 </li>
                 <li>
                     <a href="mailto:ggorosave@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
@@ -127,7 +185,7 @@
             </ul>
         </section>
     </main>
-    
+
     <footer>
         <p>&copy; 2022 Grant Gorosave</p>
     </footer>
