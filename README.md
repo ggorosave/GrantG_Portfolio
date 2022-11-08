@@ -4,7 +4,7 @@
 
 This project is meant to be a portfolio to showcase my personal coding projects to potential employers. The website provides a short self-introduction, a series of links to coding projects, and a list of means by which an employer may contact me. I built the website to be mobile forward, and it should be reponsive for phones, tablets, and desktop computers. In order to challenge myself, I tried to use a variety of CSS methods to design the page such as flex, grid, and simple animations (check the navigation buttons). Currently, the website is full of placeholder images, text, and links which will be replaced as I build more projects and gain more experience.
 
-[Grant's Web Porfolio](https://github.com/ggorosave/GrantG_Portfolio/settings/pages)
+[Grant's Web Porfolio](https://www.grantgorosave.com/)
 ![Grant's Web Portfolio](./assets/images/Portfolio%20Screenshot.html.png)
 
 ## Credits
