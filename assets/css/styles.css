@@ -8,7 +8,7 @@ Quaternary: #d9faff (lightest)
 
 /* 
 Fonts
-1. Oswald
+1. Oswald (unused)
 2. Source Sans Pro
  */
  
@@ -52,10 +52,6 @@ p, figcaption {
 }
 
 /* Headers */
-h1, h2, h3, {
-    font-family: 'Oswald', Verdana, sans-serif;
-    font-size: 100%;
-}
 
 header {
     position: fixed;
@@ -150,10 +146,6 @@ p {
     margin: 1em .5em;
 }
 
-#work .image-link {
-    display: contents;
-}
-
 #work img {
     width: 95%;
     margin: 1em;
@@ -169,7 +161,7 @@ p {
     margin: .5em 1em;
 }
 
-#work .repo-link {
+#work .project-link {
     border: 1px solid var(--prim);
     border-radius: 20px;
     padding: .5em;
@@ -213,15 +205,12 @@ nav div:active {
     transition: transform .25s ease-out;
 }
 
-#work .repo-link:hover  {
+#work .project-link:hover  {
     background-color: var(--prim);
     color: var(--quat);
     animation: bgc .15s ease-out 1;
 }
 
-#work h3:hover {
-    color: #2884c2;
-}
 
 /* keyframes */
 @keyframes bgc {
