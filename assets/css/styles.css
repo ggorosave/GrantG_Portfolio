@@ -102,6 +102,10 @@ nav div {
     margin: 8em auto 0 auto; 
 }
 
+#prof-email {
+    color: var(--quat);
+}
+
 #hero img {
     max-width: 50%;
     max-height: 60%;
