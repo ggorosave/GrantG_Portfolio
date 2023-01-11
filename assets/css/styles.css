@@ -160,9 +160,35 @@ p {
     margin-left: 1em;
 }
 
-#work p {
+#work .card-discription {
     font-size: 105%;
     margin: .5em 1em;
+}
+
+#work h4 {
+    margin: .5em 1em;
+}
+
+#work .tech-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: .5em;
+}
+
+.tech {
+    background-color: var(--prim);
+    color: var(--quat);
+    padding: .25em .75em;
+    margin: .25em .5em;
+    border-radius: 20px;
+    font-size: .85em;
+}
+
+#work .tech-logo {
+    width: 2em;
 }
 
 #work .project-link {
@@ -323,6 +349,10 @@ nav div:active {
     #work .row-right {
         grid-column: 2 / 3;
     }  
+
+    #work figure {
+        min-height: 26em;
+    }
 
     #work h3 {
         padding-top: 1em;
